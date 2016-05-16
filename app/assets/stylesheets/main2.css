@@ -104,7 +104,7 @@
 .img-back.oguri{
 	background-image: url(../img/oguri.jpg);
 	background-size: cover;
-	background-position: center:
+	background-position: center;
 }
 .img-back.orfe{
 	background-image: url(../img/orfe.jpg);
@@ -127,12 +127,12 @@
 .img-back.sinkuri{
 	background-image: url(../img/sinkuri.jpg);
 	background-size: cover;
-	background-position: center:
+	background-position: center;
 }
 .img-back.yukichan{
 	background-image: url(../img/yukichan.jpg);
 	background-size: cover;
-	background-position: center:
+	background-position: center;
 }
 .img-back.mayano{
 	background-image: url(../img/mayano.jpg);
