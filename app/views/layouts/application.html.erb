@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>物語としての競馬</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="./js/script.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+   <meta charset="UTF-8">
+   <title>物語としての競馬</title>
+   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+   <link rel="stylesheet" type="text/css" href="css/top.css">
+   <link rel="stylesheet" type="text/css" href="css/main2.css">
+   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <!-- ここからがHeaderです -->
+  <nav id="header">
+    <ul class="content">
+    <a href="index.html">
+      <div class="float-left">
+        <%= link_to image_tag("umalogo.png" , :class => "inline-block middle" , :width => "40"), '/banushi' %>
+        <%= link_to image_tag("servicetitle.jpg" , :class => "inline-block middle" , :id => "servicetitle"), '/banushi' %>
+    </a>
+        <div class="clear"></div>
+      </div>
+      <div class="float-right">
+      <% if user_signed_in? %>
+      <span>
+        <li><a href="/users/<%= current_user.id %>"><%= current_user.nickname %></a></li>  
+        <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
+      </span>
+      <li style="color:white;background-color:rgb(125,19,81)"><a href="/banushi/new" style="color:white;">投稿する</a></li>
+      <% else %>
+        <!-- <li>
+          <a href="">
+             <i class="fa fa-caret-down inline-block middle"></i>
+          </a>
+        </li> -->
+        <li><a href="/users/sign_in">サインイン</a></li>
+        <li><a href="users/sign_up">アカウント作成</a></li>
+      <% end %>
+        <div class="clear"></div>
+    </ul>
+  </nav>
+  <!-- ここまでがHeaderです -->
+
+<%= yield %>
+
+<div id="final">
+  <div id="copyrightpos">
+    <div id="contact"><span id="contactline"><strong>Contact</strong></span><br>
+    <span style="font-size:20px;">Tsukishima Chuo-ku<br>Tokyo, Japan</span>
+    </div>
+     <hr id="footerhr">
+    <p id="copyright">Copyright © 2015 RYOH HASEGAWA All rights reserved.</p>
+  </div>
+</div>
+
+</body>
+</html>

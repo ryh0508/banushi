@@ -1,0 +1,26 @@
+.userboxp{
+	margin:auto;
+	background-color:rgb(104,0,64);
+	width:280px;
+	height:260px;
+}
+.withinprofbox{
+	width:130px;
+	margin-top:30px;
+	margin-left:70px;
+	border-radius: 50%
+}
+.withinprofbox2{
+	color:white;
+	font-size:30px;
+	margin-left:90px;
+	margin-top:10px;
+}
+.allfav{
+	color:rgb(253,101,109);
+	margin:auto;
+	text-align: center;
+	margin-top:20px;
+	font-size:30px;
+	font-family:serif;
+}

@@ -1,0 +1,301 @@
+.post-header{
+	padding-top: 50px;
+}
+.post-header .tag-img{
+	float: none;
+	margin-right: 10px;
+}
+.post-header .tag{
+	font-size: 20px;
+	margin-right: 15px;
+}
+.post-header .header-left{
+	width: 80%;
+	padding: 20px;
+    box-sizing: border-box;
+}
+.post-header .header-right{
+	width: 20%;
+	padding: 20px 20px 20px 30px;
+	margin-top: 25px;
+    box-sizing: border-box; 
+}
+
+.tag-content{
+	position: relative;
+	width: 100%;
+	padding-right: 170px;
+	box-sizing: border-box;
+}
+.date{
+	width: 170px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+    top: 20px;
+}
+.header-left .fav-title{
+	width:100%;
+	position:relative;
+	top:10px;
+}
+.header-left .fav-title .fav-content{
+	width: 24%;
+}
+.title-content{
+	width:76%;	
+	background-color:rgb(222,215,194);
+	text-align: center;
+	font-size:30px;
+	font-family: serif;
+}
+#ryoh2{
+	border-radius:50%;
+}
+#ryoh3{
+	font-size: 22px;
+}
+.fav-content .fa-star{
+	font-size: 20px;
+	color: rgb(247, 216, 60);
+}
+.fav-number{
+	font-size:20px;
+}
+.favcon-upper {
+	margin-bottom: 0px;
+}
+.favcon-bottom{
+	text-align: center;
+}
+.favcon-bottom .btn{
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	padding: 8px 12px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+	margin-top: 10px;
+}
+.pstatus{
+	text-align:center;
+	position:relative;
+	bottom:5px;
+	left:30px;
+}
+#ryohimg{
+	position:relative;
+	top:10px;
+}
+.maintext{
+	margin:30px 200px;
+	font-size:20px;
+}
+.memorycontent{
+	margin:0px 200px;
+}
+.btn-twitter {
+    background: #00acee;
+    border-radius: 0;
+    color: #fff
+}
+.btn-twitter:link, .btn-twitter:visited {
+    color: #fff
+}
+.btn-twitter:active, .btn-twitter:hover {
+    background: #0087bd;
+    color: #fff
+}
+.btn-facebook {
+    background: #3b5998;
+    border-radius: 0;
+    color: #fff
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff
+}
+.btn-facebook:active, .btn-facebook:hover {
+    background: #30477a;
+    color: #fff
+}
+.btn-googleplus {
+    background: #e93f2e;
+    border-radius: 0;
+    color: #fff
+}
+.btn-googleplus:link, .btn-googleplus:visited {
+    color: #fff
+}
+.btn-googleplus:active, .btn-googleplus:hover {
+    background: #ba3225;
+    color: #fff
+}
+.btn-stumbleupon {
+    background: #f74425;
+    border-radius: 0;
+    color: #fff
+}
+.btn-stumbleupon:link, .btn-stumbleupon:visited {
+    color: #fff
+}
+.btn-stumbleupon:active, .btn-stumbleupon:hover {
+    background: #c7371e;
+    color: #fff
+}
+.btn-linkedin {
+    background: #0e76a8;
+    border-radius: 0;
+    color: #fff
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #0b6087;
+    color: #fff
+}
+.socialshare{
+	text-align:center;
+}
+
+.post-header .num{
+	font-size: 30px;
+}
+.post-header .media-left{
+	padding-right: 20px;
+}
+.sss{
+	margin-top:30px;
+	text-align:center;
+}
+#ceme{
+	border-radius:20px;
+}
+.comments{
+	padding:1px 120px;
+	margin:0;
+	width:100%;
+	margin-bottom:-50px;
+}
+.fa-comments{
+	font-size:35px;
+	margin-left:80px;
+	color:rgb(56,171,148);
+}
+#hrline{
+	border-color:black;
+	width:80%;
+	size:10px;
+	text-align: center;
+}
+.commentrow{
+	width:100%;
+}
+#yahman{
+	border-radius:50%;
+	width:100px;
+	margin-right:95px;
+	margin-bottom:10px;
+}
+.commentuser{
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.commentext{
+	margin-right:100px;
+	font-size:18px;
+	width:80%;
+}
+#commentline{
+	border-color:black;
+	width:80%;
+	size:10px;
+	text-align: center;
+	border-top:dotted;
+}
+.commentrow{
+	width:100%;
+	margin-top:50px;
+}
+.usercomment{
+	background-color:white;
+	width:80%;
+	height:100px;
+	border-color:rgb(121, 116, 116);
+	border-width:1px;
+	border-style:solid;
+}
+.storybtn{
+	border-radius:50%;
+}
+.userbtn{
+	font-size:20px;
+	float:right;
+}
+.usertokida{
+	font-size:20px;
+	padding-top:0px;
+	padding-left:230px;
+}
+.otherstory{
+	padding-left:200px;
+	font-size:25px;
+	padding-top:50px;
+}
+.otherstory2{
+	color:black;
+}
+.otherstory3{
+	width:80%;
+	text-align:center;
+	margin-right:170px;
+	margin-left:170px;
+}
+.findother{
+	width:100%;
+	float:right;
+}
+.motto{
+	padding-right:80px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:25px;
+}
+
+
+.titlesuzuka{
+	padding-top:10px;
+	color:rgb(245,177,44);
+	text-align: center;
+	font-size:28px;
+}
+.titlesuzuka2{
+	padding-top:25px;
+	font-size:20px;
+}
+.dougacomment2{
+	width: 420px;
+	height:315px;
+	background-color:rgb(246,250,253);
+}
+.titlesuzuka3{
+	padding-top:10px;
+	color:rgb(66,141,205);
+	text-align: center;
+	font-size:28px;
+}
+.dougacomment3{
+	width: 420px;
+	height:315px;
+	background-color:rgb(252,248,254);
+}
+.titlesuzuka4{
+	padding-top:25px;
+	font-size:20px;
+}
+.titlesuzuka5{
+	padding-top:10px;
+	color:rgb(190,113,209);
+	text-align: center;
+	font-size:28px;
+}

@@ -1,0 +1,24 @@
+<div class="sharest">
+  <div>
+    <div style="padding-top:85px">
+      <div class="letsshare">
+        あなただけの<br>
+        物語をシェアしましょう
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div>
+      <%= form_for @post do |f| %>
+        <%= f.text_area :title, class:"writesection", placeholder: "馬名を入力してください" %><br>
+        <%= f.text_area :content, class:"writesection" , placeholder: "馬の思い出について教えてください" %><br>
+        <%= f.file_field :image, class:"btn btn-warning ffield" %>
+        <div class="clear"></div>
+        <%= f.submit class:"btn btn-danger ffield2", value:"投稿する" %><br>
+        <div class="clear"></div>
+        <p class="ffield2">a</p>
+    <% end %>
+  </div>
+</div>

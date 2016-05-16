@@ -1,0 +1,38 @@
+<div id="main">
+  <div class="top table">
+    <div class="video">
+    <div class="pattern"></div>
+      <%= video_tag("gopro.mp4", autoplay: true, loop: true, width: "100%") %>
+    </div>
+    <div class="videobox">
+      <h1 id="concepttitle"><strong>当サービスの概要</strong></h1><br>
+      <p id="conceptdetail">時代を彩った名馬たち。<br><br>戦績は残せなかったものの、思い入れ深い愛馬。<br><br>競走馬の数だけ、<br>そこには物語がある。<br><br>戦績だけでは語りきれない物語を<a href="http://www.netkeiba.com/">シェア</a>しましょう。</p>
+    </div>
+  </div>
+  </div>
+  <div id="main2">
+    <h1 style="text-align:center;font-family:HiraMinProN-W6;font-size:35px;">すべての馬には物語がある</h1>
+    <div class="search-content">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="タイトルの馬名を検索">
+        <span class="input-group-btn">
+          <button class="btn btn-success" type="button">物語を探す</button>
+        </span>
+      </div>
+    </div>
+    <div class="row">
+        <% @posts.each do |post| %>
+          <%= render partial: "post", locals: { post: post } %>
+        <% end %>
+    </div>
+    <div class="pagenation-content">
+      <%= paginate(@posts) %>
+    </div>
+  </div>
+  <div class="amazon">
+    <div class="row amazones">
+      <%= render partial: 'book_list' %>
+    </div>
+    </div>
+  </div>
+</div>

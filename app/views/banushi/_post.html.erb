@@ -1,0 +1,26 @@
+<div class="col-xs-6">
+  <div class="post-content">
+    <div class="layerTransparent">
+      <%= link_to(post) do %>
+      <div class="content_post white-back" style="background-image: url(<%= post.image %>)";>
+      </div>
+      <% if user_signed_in? && current_user.id == post.user_id %>
+        <div class="more">
+            <span><%= image_tag 'arrow_top.png' %></span>
+            <ul class="more_list">
+              <li>
+                <%= link_to '編集', "/posts/#{post.id}/edit", method: :get %>
+              </li>
+              <li>
+                <%= link_to '削除', "/posts/#{post.id}", method: :delete %>
+              </li>
+            </ul>
+        </div>
+      <% end %>
+       <%= link_to("#{post.title}", post_path(post), class: 'title') %>
+       <%= simple_format(post.content, class:"text") %>
+       <span class="userpos">投稿者:<%= post.user.nickname %></span>
+    </div>
+  </div>
+</div>
+<% end %>

@@ -1,0 +1,29 @@
+<div align="center" style="background-color: #f1f1f1">
+  <div class="singlecon">
+    <div class="row">
+      <%= render partial: "banushi/post", locals: { post: @post } %>
+    </div> 
+  </div>
+
+
+  <% if current_user %>
+    <%= form_tag("/posts/#{@post.id}/comments", method: :post) do %>
+      <textarea cols="30" name="text" placeholder="コメントを書く" rows="2" class="writesection"></textarea>
+      <input type="submit" value="投稿する">
+    <% end %>
+  <% end %>
+
+  <div>
+    <hr id="hrline">
+    <div class="inline-block middle" style="color:rgb(56,171,148); margin-bottom:10px; margin-left:5px; font-size:20px">
+      コメント一覧
+    </div>
+  <% if @comments %>
+    <% @comments.each do |comment| %>
+      <p class="usercom">
+        <strong><%= link_to comment.user.nickname, "/users/#{comment.user_id}" %>：</strong>
+        <%= comment.text %>
+      </p>
+    <% end %>
+  <% end %>
+</div>
