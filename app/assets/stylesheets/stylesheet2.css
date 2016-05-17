@@ -177,7 +177,7 @@
 	margin-bottom:-50px;
 }
 .fa-comments{
-	font-size:35px;
+	font-size: 35px;
 	margin-left:80px;
 	color:rgb(56,171,148);
 }
@@ -198,12 +198,12 @@
 }
 .commentuser{
 	font-weight:bold;
-	font-size:20px;
+	font-size: 20px;
 	margin-bottom:5px;
 }
 .commentext{
 	margin-right:100px;
-	font-size:18px;
+	font-size: 18px;
 	width:80%;
 }
 #commentline{
@@ -229,13 +229,8 @@
 	border-radius:50%;
 }
 .userbtn{
-	font-size:20px;
+	font-size: 20px;
 	float:right;
-}
-.usertokida{
-	font-size:20px;
-	padding-top:0px;
-	padding-left:230px;
 }
 .otherstory{
 	padding-left:200px;
@@ -260,42 +255,4 @@
 	padding-top:15px;
 	padding-bottom:15px;
 	font-size:25px;
-}
-
-
-.titlesuzuka{
-	padding-top:10px;
-	color:rgb(245,177,44);
-	text-align: center;
-	font-size:28px;
-}
-.titlesuzuka2{
-	padding-top:25px;
-	font-size:20px;
-}
-.dougacomment2{
-	width: 420px;
-	height:315px;
-	background-color:rgb(246,250,253);
-}
-.titlesuzuka3{
-	padding-top:10px;
-	color:rgb(66,141,205);
-	text-align: center;
-	font-size:28px;
-}
-.dougacomment3{
-	width: 420px;
-	height:315px;
-	background-color:rgb(252,248,254);
-}
-.titlesuzuka4{
-	padding-top:25px;
-	font-size:20px;
-}
-.titlesuzuka5{
-	padding-top:10px;
-	color:rgb(190,113,209);
-	text-align: center;
-	font-size:28px;
 }

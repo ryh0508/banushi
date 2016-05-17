@@ -75,7 +75,7 @@
 	}
 
 	.postdone3{
-		font-size:40px;
+		font-size: 40px;
 		font-family: serif;
 	}
 
@@ -99,7 +99,7 @@
 	color:rgb(252,123,129);
 	font-family:serif;
 	padding-left:30px;
-	font-size:50px;
+	font-size: 50px;
 	padding-top:30px;
 	text-align:center;
 }
@@ -123,7 +123,7 @@
 .useraddtext{
 	color:rgb(252,123,129);
 	font-family:serif;
-	font-size:30px;
+	font-size: 30px;
 	margin-top:30px;
 }
 .fblog{
